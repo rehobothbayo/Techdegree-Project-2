@@ -71,8 +71,8 @@
             margin: 5px 0;
         }
         /* ================================= 
-  Base Layout Styles
-==================================== */
+        Base Layout Styles
+        ==================================== */
         
         .main-content {
             background-color: #fff;
@@ -160,8 +160,6 @@
         nav a:hover {
             background-color: #F0F0F0;
         }
-        /* ---- Layout Containers ---- */
-        /* ---- Page Elements ---- */
         /* ================================= 
              Media Queries
             ==================================== */
@@ -182,7 +180,7 @@
                 width: 40%;
             }
             .bottom-nav li {
-                margin-left: 1em;
+                margin-left: 1.2em;
             }
             .bottom-nav {
                 float: right;
@@ -191,7 +189,7 @@
             }
             .intro-img {
                 float: right;
-                margin: 15px 0 15px 15px;
+                margin: 14px 0 14px 14px;
                 width: 45%;
             }
             .intro-paragraph {
