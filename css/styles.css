@@ -1,6 +1,6 @@
         /* ================================= 
-  Base Element Styles
-==================================== */
+            Base Element Styles
+        ==================================== */
         
         * {
             box-sizing: border-box;
@@ -29,12 +29,14 @@
         }
         
         p {
-            font-weight: 300;
-            font-size: .9em;
+            font-weight: 400;
+            font-size: 1.2em;
         }
         
         a {
             text-decoration: none;
+            font-weight: 600;
+            color: rgb(52, 171, 235);
         }
         
         h1 {
@@ -131,6 +133,24 @@
         .contact-text {
             margin-bottom: 2em;
         }
+        
+        .back-to-top {
+            float: right;
+        }
+        
+        .back-to-top a {
+            font-size: .75em;
+            display: block;
+        }
+        
+        .bottom-name {
+            margin: 0;
+            float: left;
+        }
+        
+        .bottom-nav {
+            display: none;
+        }
         /* ---- Navigation ---- */
         
         nav a:link {
@@ -152,17 +172,22 @@
                 display: inline-block;
             }
             .main-nav li,
-            .bot-nav li {
+            .bottom-nav li {
                 float: left;
             }
             .skills-img {
                 float: left;
-                margin: 15px 15px 15px 0;
-                padding-left: 8px;
-                width: 45%;
+                margin: 18px 18px 18px 0;
+                padding-left: 10px;
+                width: 40%;
             }
-            .bot-nav li {
+            .bottom-nav li {
                 margin-left: 1em;
+            }
+            .bottom-nav {
+                float: right;
+                margin: 0;
+                display: inline-block;
             }
             .intro-img {
                 float: right;
